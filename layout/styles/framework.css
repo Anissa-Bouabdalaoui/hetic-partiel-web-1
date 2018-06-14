@@ -23,6 +23,9 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 .circle{border-radius:50%; background-clip:padding-box;}
 
+.back1{ background-image: url("images/demo/backgrounds/01.png"); background-position:top center; background-repeat:no-repeat; background-size:cover;
+ }
+
 .btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
 
 .clear, .group{display:block;}
@@ -47,7 +50,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
-h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
+h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif; }
 
 
 /* Forms
@@ -62,7 +65,9 @@ label{margin-bottom:5px;}
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
-.heading.nospace{margin:0;}
+.nospace2{color:red;
+text-align:left;
+margin:0; padding:0; list-style:none;}
 
 address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
@@ -73,6 +78,8 @@ hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 .font-x3{font-size:2.8rem;}
 
 .wrapper{display:block; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+
+.wrapper.row2{background-image:url('images/demo/backgrounds/02.png');}
 /*
 The "hoc" class is a generic class used to centre a containing element horizontally
 It should be used in conjunction with a second class or ID
@@ -87,7 +94,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 
 /* Grid
 --------------------------------------------------------------------------------------------------------------- */
-.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; text-align:center; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
 
 .first{margin-left:0; clear:left;}
 
