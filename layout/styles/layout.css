@@ -36,6 +36,7 @@
 }
 
 
+
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {}
@@ -931,7 +932,11 @@ textarea:focus,
 	color: #FFFFFF;
 }
 
-.row1 {
+.row1 {  position: fixed;
+    top:0;
+    left:0;
+    right:0;
+		z-index:1000;
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, .2);
 }
