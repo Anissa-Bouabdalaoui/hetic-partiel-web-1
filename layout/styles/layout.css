@@ -867,6 +867,7 @@ a:active,
 a:focus {
 	background: transparent;
 }
+a:hover{color:red;}
 
 
 /* IE10 + 11 Bugfix - prevents grey background */
@@ -1226,7 +1227,7 @@ table a,
 	}
 	#mainav {}
 	#mainav ul {
-		display: none;
+		line-height: 0px;
 	}
 	#mainav form {
 		display: block;
