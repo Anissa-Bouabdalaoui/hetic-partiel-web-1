@@ -929,7 +929,7 @@ textarea:focus,
 /* Rows */
 
 .row0,
-.row0 a {
+.row0 a {padding-top:80px;
 	color: #FFFFFF;
 }
 
@@ -973,6 +973,9 @@ textarea:focus,
 
 #topbar ul li:first-child a {
 	color: #CF9C67;
+}
+#topbar ul li a:hover{
+		color: #CF9C67;
 }
 
 

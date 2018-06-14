@@ -4,27 +4,73 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
 *, *::before, *::after{box-sizing:border-box;}
 
-.bold{font-weight:bold;}
-.center{text-align:center;}
-.right{text-align:right;}
-.uppercase{text-transform:uppercase;}
-.capitalise{text-transform:capitalize;}
-.hidden{display:none;}
-.nospace{margin:0; padding:0; list-style:none;}
+.bold{
+  font-weight:bold;
+}
 
-.block{display:block;}
-.justified{text-align:justify;}
-.inline *{display:inline-block;}
-.inline *:last-child{margin-right:0;}
-.pushright li{margin-right:20px;}
-.pushright li:last-child{margin-right:0;}
-.borderedbox{border:1px solid;}
-.overlay{position:relative; z-index:1;}
-.overlay::after{display:block; position:absolute; top:0; left:0; width:100%; height:100%; content:""; z-index:-1;}
-.bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
-.circle{border-radius:50%; background-clip:padding-box;}
+.center{
+  text-align:center;
+}
 
-.bgded.back1{ background-image: url("https://www.healthypawspetinsurance.com/Images/V3/DogAndPuppyInsurance/Dog_CTA_Desktop_HeroImage.jpg"); background-position:top center; background-repeat:no-repeat; background-size:cover;
+.right{
+  text-align:right;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.capitalise{
+  text-transform:capitalize;
+}
+
+.hidden{display:none;
+}
+.nospace{margin:0;
+  padding:0;
+ list-style:none;}
+.nospace2{
+text-align:left;
+margin:0; padding:0; list-style:none;}
+.block{
+  display:block;
+}
+.justified{
+  text-align:justify;
+}
+.inline *{
+  display:inline-block;
+}
+.inline *:last-child{
+  margin-right:0;
+}
+.pushright li{
+  margin-right:20px;
+}
+.pushright li:last-child{
+  margin-right:0;
+}
+.borderedbox{
+  border:1px solid;
+}
+.overlay{
+  position:relative; z-index:1;
+}
+.overlay::after{
+  display:block; position:absolute; top:0; left:0; width:100%; height:100%; content:""; z-index:-1;
+}
+.bgded{
+  background-position:top center; background-repeat:no-repeat; background-size:cover;
+}
+.circle{
+  border-radius:50%; background-clip:padding-box;
+}
+
+.bgded.back1{
+  background-image: url("https://www.healthypawspetinsurance.com/Images/V3/DogAndPuppyInsurance/Dog_CTA_Desktop_HeroImage.jpg");
+  background-position:top center;
+  background-repeat:no-repeat;
+  background-size:cover;
  }
 
 .btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
