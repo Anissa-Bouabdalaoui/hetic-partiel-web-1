@@ -783,6 +783,8 @@ td {
 	padding: 0;
 	list-style: none;
 }
+.faico .clear{float:right;
+background:red;}
 
 .faico li {
 	display: inline-block;
